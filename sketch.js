@@ -14,7 +14,7 @@ const fortunes = [
 
 function preload() {
   // 점쟁이 이미지 로드 (이미지 파일은 별도로 준비해야 합니다)
-  fortuneTeller = loadImage('/assets/kinmaton.png');
+  fortuneTeller = loadImage('./assets/kinmaton.png');
 }
 
 function setup() {
